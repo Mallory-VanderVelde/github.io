@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallory VanderVelde | Travel Advisor with Fora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #6c9abf;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px 0;
+            background-color: #8ab1c0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #4a5d6d;
+        }
+        .destination, .recently-booked, .review {
+            background-color: #e0f3f9;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #6c9abf;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mallory VanderVelde</h1>
+        <p>Travel Advisor with Fora</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#destinations">Favorite Destinations</a>
+        <a href="#recently-booked">Recently Booked</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#how-to-book">How to Book</a>
+        <a href="#fees">Fees Information</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Mallory VanderVelde, a dedicated travel advisor with Fora. I specialize in crafting personalized travel experiences that cater to your unique preferences. Whether you're dreaming of a serene mountain escape or an exotic adventure, I'm here to make it happen.</p>
+        </section>
+        <section id="destinations">
+            <h2>Favorite Destinations</h2>
+            <div class="destination">
+                <h3>Banff National Park, Canada</h3>
+                <p>A stunning destination known for its breathtaking mountain views, crystal-clear lakes, and diverse wildlife.</p>
+            </div>
+            <div class="destination">
+                <h3>Queenstown, New Zealand</h3>
+                <p>Renowned for its adventure sports and picturesque landscapes, Queenstown offers something for every thrill-seeker.</p>
+            </div>
+        </section>
+        <section id="recently-booked">
+            <h2>Recently Booked</h2>
+            <div class="recently-booked">
+                <h3>European Grand Tour</h3>
+                <p>A comprehensive tour covering iconic cities across Europe, including Paris, Rome, and Barcelona.</p>
+            </div>
+            <div class="recently-booked">
+                <h3>Tropical Escape in Bali</h3>
+                <p>A luxurious stay in Bali with private villa accommodations, spa treatments, and cultural experiences.</p>
+            </div>
+        </section>
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <div class="review">
+                <p>"Mallory made our honeymoon unforgettable. Her attention to detail and personalized recommendations were spot-on. Highly recommend!" - Jane D.</p>
+            </div>
+            <div class="review">
+                <p>"The best travel advisor we've ever worked with. Mallory's expertise and dedication ensured a smooth and enjoyable trip." - John S.</p>
+            </div>
+        </section>
+        <section id="how-to-book">
+            <h2>How to Book</h2>
+            <p>Ready to start planning your next adventure? Contact me through the form below or send an email to mallory@foratravel.com to get started. I'll work with you to create a customized travel plan tailored to your needs.</p>
+        </section>
+        <section id="fees">
+            <h2>Fees Information</h2>
+            <p>My services are designed to offer value and convenience. Fees vary depending on the complexity of the trip and specific services required. Please reach out for a detailed quote.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mallory VanderVelde. All rights reserved.</p>
+    </footer>
+</body>
+</html>
